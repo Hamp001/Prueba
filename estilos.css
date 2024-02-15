@@ -1,0 +1,122 @@
+/* Estilos para centrar todo el contenido */
+#cuerpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #330000;
+}
+
+/* Estilos para el texto y el elemento mostrar */
+#texto {
+  text-align: center;
+  border-radius: 10px;
+  width: 300px;
+  border: 2px solid white;
+  margin: 10px;
+}
+
+#contenidoMostrable {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+#crearElemento {
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 15px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Estilos para el botón "Picame" */
+#picame {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 3%;
+}
+
+/* Estilos para los botones de números */
+#botonesNumeros {
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Estilos para los botones "Apachurrame" y "Restablecer" */
+#crearNum,
+#borrarNum {
+  margin: auto;
+}
+
+/* Estilos para el boton "botonAnadido" */
+#botonAnadido {
+  margin: 10px;
+}
+
+#contenedorAnadidos {
+  display: flex;
+  flex-wrap: wrap; /* Esto permite que los elementos se vayan a la siguiente línea cuando no hay suficiente espacio */
+  align-items: center;
+  text-align:center;
+}
+
+#mostrarNum{
+  margin: 5px;
+}
+#campoNum1, #campoNum2{
+  margin-top: 1.5%;
+}
+
+#cuadroDeSelect{
+  padding: 2%;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: -1px;
+}
+
+#botonSelects{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+#crearSelect,#borrarOpciones{
+  width: 100%;
+}
+
+.prueba-margin{
+  text-align: center;
+  align-items: center;
+  margin: 5px
+}
+
+.texto{
+  color: white;
+}
+
+.centrado{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#botonSubmitSelect{
+  margin-top: 15px;
+}
+
+#opcionSelect{
+  border-radius: 10px;
+}
+
+#selectGenerado{
+  margin: 5px;
+}
